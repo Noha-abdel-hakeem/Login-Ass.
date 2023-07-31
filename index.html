@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--============= meta-tags============== -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Quotes">
+  <meta name="keywords" content="Quotes, Quotes-App , Success-quotes">
+  <title>LOGIN Project</title>
+
+
+  <!--=========== links-tags======== -->
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  <!-- Icon -->
+  <link rel="icon" href="imgs/download-removebg-preview.png">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+ 
+  <div class="container   text-center p-4   rounded">
+        <!-- =======login-->
+
+    <div class="form  d-none" id="login">
+      <h1 class="formTitle mb-4 ">Smart Login System</h1>
+      <div class="formMessage mb-3 text-danger" id="formMessageError"></div>
+      <div class="formInputGroup mb-3">
+        <input type="text" class="formInput p-2  rounded" autofocus placeholder="Username or Email " required id="signinEmail">
+        <div class="formInputErrorMessage text-danger mt-3"></div>
+      </div>
+      <div class="formInputGroup">
+        <input type="password" class="formInput p-2  rounded" autofocus placeholder="Userpassword " required id="signinPassword">
+        <div class="formInputErrorMessage"></div>
+      </div>
+      <button class="formButton btn btn-info  w-100 my-3 px-5" type="submit" required id="loginBtn" >
+          login
+      </button>
+     
+      <p class="formtext formLink text-white" id="linkCreatAccounts">Don't have an account? Sign Up
+      </p>
+    </div>
+    
+    <!-- =======Create Acc. -->
+    <div class="form d-block " id="createAccount">
+      <h1 class="formTitle mb-4 ">Smart Login System</h1>
+      <div class="formMessage mb-3 text-danger" id="formMessageError"></div>
+      <div class="formInputGroup mb-3">
+        <input type="text" class="formInput  p-2  rounded" autofocus placeholder="Username" required id="signupName">
+        <div class="formInputErrorMessage text-danger mt-3"></div>
+      </div>
+      <div class="formInputGroup mb-3">
+        <input type="email" class="formInput  p-2  rounded" autofocus placeholder="UserEmail " required id="signupEmail">
+        <div class="formInputErrorMessage text-danger mt-3"></div>
+      </div>
+      <div class="formInputGroup">
+        <input type="password" class="formInput  p-2  rounded" autofocus placeholder="Userpassword " required id="signupPass">
+        <div class="formInputErrorMessage"></div>
+      </div>
+      <p class="text-center text-info d-none" id="successMes">Success</p>
+      <button class="formButton btn btn-info  w-100 my-3 px-5" type="submit" id="signupBtn">
+          Sign Up
+      </button>
+      
+      <p class="formtext formLink text-white" id="linkLogin">Already have an account? Sign In
+        
+      </p>
+    </div>
+
+
+        <!-- =======home-->
+
+  <div class="nav d-none w-100 mx-auto p-2 d-flex justify-content-around position-absolute top-0 start-0 end-0">
+    <h5 class="text-white">Smart Login</h5>
+    <button class="btn btn-outline-warning px-2 logoutBtn">Logout</button>
+  </div>
+   
+    <div class="form d-none" id="homePage">
+      
+      <h1 class="formTitle">Welcome </h1>
+      
+    </div>
+
+
+  </div>
+
+  
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="js/script2.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+@media (max-width:772px) { 
+    h1{
+        font-size: 2rem ;
+       
+    }
+
+}
+@media (max-width:636px) { 
+    h1{
+        font-size: 1.7rem ;
+       
+    }
+
+}
+@media (max-width:555px) { 
+    h1{
+        font-size: 1.5rem ;
+       
+    }
+
+}
+@media (max-width:501px) { 
+    h1{
+        font-size: 1.3rem ;
+       
+    }
+
+}
+@media (max-width:447px) { 
+    h1{
+        font-size: 1.5rem ;
+
+       
+    }
+
+}
+@media (max-width:375px) { 
+    .btn {
+    --bs-btn-font-size: 0.6rem;
+}
+}
+@media (max-width:373px) { 
+    .btn {
+    --bs-btn-font-size: 0.6rem;
+}
+}
+@media (max-width:353px) { 
+    .btn {
+    --bs-btn-font-size: 0.5rem;
+}
+}
